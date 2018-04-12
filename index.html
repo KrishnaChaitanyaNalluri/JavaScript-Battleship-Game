@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,maximum-scale=1">
+	<title>Shipt Coding Challenge - Battleship</title>
+	<link href="css/styles.css"  rel="stylesheet" media="all"/>
+</head>
+<body>
+<div class="container">
+	<div class="game-container">
+		<div id="game-sidebar">
+			<h3>Place Your Ships and Start Game</h3>
+			<ul class="fleet-roster">
+				<li id="destroyer">Destroyer</li>
+				<li id="submarine">Submarine</li>
+				<li id="cruiser">Cruiser</li>
+				<li id="battleship">Battleship</li>
+				<li id="carrier">Carrier</li>
+			</ul>
+			<button id="rotate-button" data-direction="0">Switch Ship Orientation</button>
+			<button id="start-game" class="disable">Start Game</button>
+			<button id="place-randomly" class="disable">Place Ships Randomly</button>
+		</div>
+		<div class="grid-container" id="player-container">
+			<h2>Your Ships</h2>
+			<div class="grid human-player"></div>
+		</div>
+		<div class="grid-container" id="computer-container">
+			<h2>Computer Ships</h2>
+			<div class="grid computer-player"></div>
+		</div>
+	</div>
+	
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
