@@ -1,4 +1,3 @@
-# SHIPT-WEB-DEV-CODING-CHALLENGE
 Javascript Implementation
 
 USAGE:
